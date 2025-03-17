@@ -1,10 +1,10 @@
 module.exports = {
-    prefix: '!',
+    prefix: '+',
     nodes: [{
-        host: "lavalink.jirayu.net",
+        host: "server.relocation.tk",
         password: "youshallnotpass",
-        port: 13592,
-        secure: false,
+        port: 1032,
+        secure: true,
         name: "Main Node"
     }],
     spotify: {
@@ -12,5 +12,5 @@ module.exports = {
         clientSecret: "e8199f4024fe49c5b22ea9a3dd0c4789"
     },
     botToken: "",
-    embedColor: "#0061ff"
+    embedColor: "#ff0000"
 };
